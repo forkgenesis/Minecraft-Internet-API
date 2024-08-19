@@ -11,8 +11,6 @@ All releases are published on [the Modrinth page of this project](https://modrin
 
 |        |  Forge  | Fabric  | Neoforge  |
 |--------|:-------:|:-------:|:---------:|
-| 1.6.4  | Planned |         |           |
-| 1.7.10 | Planned |         |           |
 | 1.8.9  | Planned |         |           |
 | 1.12.2 | Planned |         |           |
 | 1.14.4 | Planned | Planned |           |
