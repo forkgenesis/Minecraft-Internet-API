@@ -20,7 +20,7 @@ body:
     attributes:
       label: "Steps to reproduce"
       description: "Write step by step what needs to be done to reproduce the problem"
-      placeholder: >-
+      placeholder: |
         1. Open Minecraft
         2. Open a singleplayer world
         3. Open a chest
@@ -35,7 +35,7 @@ body:
       options:
         - Client
         - Server
-      default: Client
+      default: 1
     validations:
       required: true
   - type: dropdown
@@ -76,7 +76,7 @@ body:
       label: "Mod version"
       description: "What version of MWAPI did you use?"
       options:
-        - None
+        - No versions present
       default: 0
     validations:
       required: true
