@@ -5,7 +5,8 @@ labels: ["bug"]
 body:
   - type: markdown
     attributes:
-      value: >-
+      value: |
+        ###### [English](https://github.com/vpgel/Minecraft-World-API/issues/new?assignees=&labels=bug&projects=&template=bug_report.yml&title=%5BBug%5D%3A+) | Русский
         Пожалуйста, потратьте немного времени, чтобы заполнить эту форму!
   - type: textarea
     id: bug-description
