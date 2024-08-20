@@ -1,7 +1,7 @@
 ###### English | [Русский](locales/README_ru.md)
 ###### Introduction | [Frequently Asked Questions](FAQ.md) | [About Servers](SERVER_README.md)
 
-### [Here to report a bug?](https://github.com/vpgel/Minecraft-World-API/issues/new/choose)
+### [Here to report a bug?](https://github.com/vpgel/Minecraft-World-API/issues/new?assignees=&labels=bug&projects=&template=bug_report.yml&title=%5BBug%5D%3A+)
 
 ## Introduction
 
