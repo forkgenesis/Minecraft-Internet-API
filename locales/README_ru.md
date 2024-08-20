@@ -1,6 +1,8 @@
 ###### [English](/README.md) | Русский
 ###### Вступление | [Часто Задаваемые Вопросы](FAQ_ru.md) | [О серверах](SERVER_README_ru.md)
 
+[Здесь, чтобы сообщить о баге?](https://github.com/vpgel/Minecraft-World-API/issues/new/choose)
+
 ## Вступление
 
 Это мод/плагин для компьютерной игры Майнкрафт: Java Edition.\

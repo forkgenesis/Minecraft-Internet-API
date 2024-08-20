@@ -1,6 +1,8 @@
 ###### English | [Русский](locales/README_ru.md)
 ###### Introduction | [Frequently Asked Questions](FAQ.md) | [About Servers](SERVER_README.md)
 
+[Here to report a bug?](https://github.com/vpgel/Minecraft-World-API/issues/new/choose)
+
 ## Introduction
 
 This is a mod/plugin for the computer game Minecraft: Java Edition.\
