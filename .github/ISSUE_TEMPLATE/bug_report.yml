@@ -76,6 +76,7 @@ body:
       label: Mod version
       description: What version of MWAPI did you use?
       options:
+        - None
       default: 0
     validations:
       required: true
