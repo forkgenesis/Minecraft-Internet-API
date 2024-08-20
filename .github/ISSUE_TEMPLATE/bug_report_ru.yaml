@@ -5,7 +5,7 @@ labels: ["bug"]
 body:
   - type: markdown
     attributes:
-      value: |
+      value: >-
         Пожалуйста, потратьте немного времени, чтобы заполнить эту форму!
   - type: textarea
     id: bug-description
@@ -20,7 +20,7 @@ body:
     attributes:
       label: Шаги воспроизведения бага
       description: Напишите пошагово, что нужно сделать, чтобы получить баг
-      placeholder: |
+      placeholder: >-
         1. Открыть Майнкрафт
         2. Зайти в одиночный мир
         3. Открыть сундук
