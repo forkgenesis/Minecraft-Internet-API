@@ -1,64 +1,91 @@
 name: Bug Report
-description: File a bug report.
+description: Press to file a bug report!
 title: "[Bug]: "
-labels: ["bug", "triage"]
-projects: ["octo-org/1", "octo-org/44"]
-assignees:
-  - octocat
+labels: ["bug"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
-  - type: input
-    id: contact
-    attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
-    validations:
-      required: false
+        Please, take a moment to fill out this form!
   - type: textarea
-    id: what-happened
+    id: bug-description
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      label: Bug description
+      description: Briefly tell me, what is wrong.
+      placeholder: Minecraft crashes when I open a chest
+    validations:
+      required: true
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Write step by step what needs to be done to reproduce the problem
+      placeholder: |
+        1. Open Minecraft
+        2. Open a singleplayer world
+        3. Open a chest
+        4. Minecraft crashes
     validations:
       required: true
   - type: dropdown
-    id: version
+    id: client-or-server
     attributes:
-      label: Version
-      description: What version of our software are you running?
+      label: Client or server?
+      description: Which side are you running?
       options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+        - Client
+        - Server
+      default: Client
+    validations:
+      required: true
+  - type: dropdown
+    id: mc-version
+    attributes:
+      label: Minecraft version
+      description: What version of Minecraft did you run?
+      options:
+        - Forge 1.21.1
+        - Fabric 1.21.1
+        - Neoforge 1.21.1
+        - Forge 1.20.6
+        - Fabric 1.20.6
+        - Neoforge 1.20.6
+        - Forge 1.20.4
+        - Fabric 1.20.4
+        - Neoforge 1.20.4
+        - Forge 1.20.1
+        - Fabric 1.20.1
+        - Forge 1.19.2
+        - Fabric 1.19.2
+        - Forge 1.18.2
+        - Fabric 1.18.2
+        - Forge 1.16.5
+        - Fabric 1.16.5
+        - Forge 1.16.1
+        - Fabric 1.16.1
+        - Forge 1.14.4
+        - Fabric 1.14.4
+        - Forge 1.12.2
+        - Forge 1.8.9
       default: 0
     validations:
       required: true
   - type: dropdown
-    id: browsers
+    id: mod-version
     attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
+      label: Mod version
+      description: What version of MWAPI did you use?
       options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+      default: 0
+    validations:
+      required: true
   - type: textarea
     id: logs
     attributes:
-      label: Relevant log output
+      label: Minecraft logs
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
-  - type: checkboxes
-    id: terms
+  - type: markdown
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com). 
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+      value: |
+        Thanks for taking the time to fill out this bug report!
