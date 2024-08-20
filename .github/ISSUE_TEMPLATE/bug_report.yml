@@ -1,5 +1,5 @@
 name: "Bug Report"
-description: "Press to file a bug report!""
+description: "Press to file a bug report!"
 title: "[Bug]: "
 labels: ["bug"]
 body:
