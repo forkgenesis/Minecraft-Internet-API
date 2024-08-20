@@ -10,16 +10,16 @@ body:
   - type: textarea
     id: bug-description
     attributes:
-      label: Bug description
-      description: Briefly tell me, what is wrong.
-      placeholder: Minecraft crashes when I open a chest
+      label: "Bug description"
+      description: "Briefly tell me, what is wrong."
+      placeholder: "Minecraft crashes when I open a chest"
     validations:
       required: true
   - type: textarea
     id: steps-to-reproduce
     attributes:
-      label: Steps to reproduce
-      description: Write step by step what needs to be done to reproduce the problem
+      label: "Steps to reproduce"
+      description: "Write step by step what needs to be done to reproduce the problem"
       placeholder: >-
         1. Open Minecraft
         2. Open a singleplayer world
@@ -30,8 +30,8 @@ body:
   - type: dropdown
     id: client-or-server
     attributes:
-      label: Client or server?
-      description: Which side are you running?
+      label: "Client or server?"
+      description: "Which side are you running?"
       options:
         - Client
         - Server
@@ -41,8 +41,8 @@ body:
   - type: dropdown
     id: mc-version
     attributes:
-      label: Minecraft version
-      description: What version of Minecraft did you run?
+      label: "Minecraft version"
+      description: "What version of Minecraft did you run?"
       options:
         - Forge 1.21.1
         - Fabric 1.21.1
@@ -73,8 +73,8 @@ body:
   - type: dropdown
     id: mod-version
     attributes:
-      label: Mod version
-      description: What version of MWAPI did you use?
+      label: "Mod version"
+      description: "What version of MWAPI did you use?"
       options:
         - None
       default: 0
@@ -83,8 +83,8 @@ body:
   - type: textarea
     id: logs
     attributes:
-      label: Minecraft logs
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      label: "Minecraft logs"
+      description: "Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks."
       render: shell
   - type: markdown
     attributes:
